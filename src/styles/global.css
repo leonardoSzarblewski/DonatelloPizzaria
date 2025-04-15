@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root{
+    --bg-color: #fff;
+
+    --color-purple: #871F78;
+    --color-txt: #d3d3d3;
+    --h1-color: #941c82;
+    
+    --button-color-hover: #993399;
+    --border-color: #631557;
+
+}
+
+h1, h2, h3{
+    font-family: "Inter", sans-serif;
+    color: var(--h1-color);
+    letter-spacing: .1rem;
+}
+
+span{
+    color: var(--color-txt);
+    letter-spacing: .1rem;
+}
+
+.icons{
+    width: 2rem;
+}
