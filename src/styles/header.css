@@ -1,0 +1,25 @@
+.headerContainer{
+    background-color: var(--color-purple);
+
+    .imagesHeader{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7rem;
+
+        .lystHeader{
+            display: flex;
+            list-style: none;
+
+            gap: 1.5rem;
+            color: var(--color-txt);
+            font-family: "Inter", sans-serif;
+
+            cursor: pointer;
+        }
+    }
+}
+
+li:hover{
+    color: #FFD700;
+}
