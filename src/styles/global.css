@@ -13,14 +13,14 @@ body{
 
     --color-purple: #55165E;
     --color-txt: #d3d3d3;
-    --h1-color: #941c82;
+    --h1-color: #702364;
     
     --button-color-hover: #993399;
     --border-color: #631557;
 
 }
 
-h1, h2, h3{
+h1{
     font-family: "Inter", sans-serif;
     color: var(--h1-color);
     letter-spacing: .1rem;

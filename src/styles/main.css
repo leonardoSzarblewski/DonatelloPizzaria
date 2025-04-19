@@ -1,0 +1,46 @@
+main{
+    margin-top: 2rem;
+    background-color: white;
+
+    aside{
+        display: flex;
+        margin-bottom: 2rem;
+
+        .textAButton{  
+            font-size: 3rem;
+
+            text-align: center;
+
+            margin-left: 15%;
+            margin-top: 10%;
+
+            .textH1{
+                font-weight: 300;
+                font-family:playfair display,serif;
+            }
+        }
+    }
+}
+
+.pizzaImg{
+    width: 50%;
+    height: 50rem;
+    object-fit: cover;
+}
+
+.btn{
+    padding: 1rem 2.5rem;
+    border-radius: 2rem;
+    border: 1px solid var(--border-color);
+    background-color: white;
+    color: var(--border-color);
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: white;
+    background-color: var(--border-color);
+    transition: .3s;
+}
