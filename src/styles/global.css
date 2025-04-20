@@ -20,10 +20,14 @@ body{
 
 }
 
-h1{
+h1, h2{
     font-family: "Inter", sans-serif;
     color: var(--h1-color);
     letter-spacing: .1rem;
+}
+
+h3, h4, p{  
+    color: white;
 }
 
 span{
@@ -36,7 +40,7 @@ span{
 }
 
 .logo{
-    width: 17rem;
+    width: 12rem;
     padding: 1rem;
     margin-bottom: 1rem;
 }
