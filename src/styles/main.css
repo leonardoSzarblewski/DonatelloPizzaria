@@ -1,34 +1,33 @@
-main{
+main {
     margin-top: 2rem;
     background-color: white;
 
-    aside{
-        display: flex;
-        margin-bottom: 2rem;
+    display: flex;
+    margin-bottom: 2rem;
 
-        .textAButton{  
-            font-size: 3rem;
+    .textAButton {
+        font-size: 3rem;
 
-            text-align: center;
+        text-align: center;
 
-            margin-left: 15%;
-            margin-top: 10%;
+        margin-left: 15%;
+        margin-top: 10%;
 
-            .textH1{
-                font-weight: 300;
-                font-family:playfair display,serif;
-            }
+        .textH1 {
+            font-weight: 300;
+            font-family: playfair display, serif;
         }
     }
+
 }
 
-.pizzaImg{
+.pizzaImg {
     width: 50%;
     height: 50rem;
     object-fit: cover;
 }
 
-.btn{
+.btn {
     padding: 1rem 2.5rem;
     border-radius: 2rem;
     border: 1px solid var(--border-color);
@@ -39,7 +38,7 @@ main{
     cursor: pointer;
 }
 
-.btn:hover{
+.btn:hover {
     color: white;
     background-color: var(--border-color);
     transition: .3s;
