@@ -33,6 +33,7 @@ h3, h4, p{
 span{
     color: var(--color-txt);
     letter-spacing: .1rem;
+    font-weight: 600;
 }
 
 .icons{

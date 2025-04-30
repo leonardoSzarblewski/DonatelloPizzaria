@@ -1,2 +1,23 @@
+footer{
+    background-color: var(--color-purple);
+    
 
+    .endereço{
+        padding: 2rem;
+        margin-left: 30%;
+
+        ul{
+            margin-top: 1rem;
+        }
+
+        
+        li{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: .3rem;
+        }
+    }
+}
 

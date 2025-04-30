@@ -1,9 +1,10 @@
-main {
+#peçaAqui {
     margin-top: 2rem;
     background-color: white;
 
+
     display: flex;
-    margin-bottom: 2rem;
+    margin-bottom: 15rem;
 
     .textAButton {
         font-size: 3rem;
